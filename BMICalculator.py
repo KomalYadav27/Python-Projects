@@ -1,14 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
 # # BMI Calculator
-# 
 # Referance: https://www.calculator.net/bmi-calculator.html
-# 
-
-# In[16]:
-
-
 weight = int((input("Enter your weight in kg:")))
 height = float((input("Enter your height in meters:")))
 BMI = weight/(height*height)
@@ -32,15 +23,6 @@ if BMI>0:
         print("You are obese class 3")
     else:
         print("Enter correct values of weight and height")
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
